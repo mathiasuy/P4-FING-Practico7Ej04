@@ -39,7 +39,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/ICollection.o \
 	${OBJECTDIR}/IIterator.o \
 	${OBJECTDIR}/List.o \
+	${OBJECTDIR}/ListIterator.o \
 	${OBJECTDIR}/Node.o \
+	${OBJECTDIR}/Usuario.o \
 	${OBJECTDIR}/main.o
 
 
@@ -87,10 +89,20 @@ ${OBJECTDIR}/List.o: List.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/List.o List.cpp
 
+${OBJECTDIR}/ListIterator.o: ListIterator.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ListIterator.o ListIterator.cpp
+
 ${OBJECTDIR}/Node.o: Node.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Node.o Node.cpp
+
+${OBJECTDIR}/Usuario.o: Usuario.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Usuario.o Usuario.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}

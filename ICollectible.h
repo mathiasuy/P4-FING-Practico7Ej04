@@ -16,9 +16,8 @@
 
 class ICollectible {
 public:
-
-private:
-
+    ICollectible();
+    ~ICollectible();
 };
 
 #endif /* ICOLLECTIBLE_H */

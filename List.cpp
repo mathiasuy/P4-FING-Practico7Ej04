@@ -43,3 +43,6 @@ void List::remove(ICollectible* e){
     }
 }
 
+IIterator* List::getIterator(){
+    return new ListIterator(this->first);
+}

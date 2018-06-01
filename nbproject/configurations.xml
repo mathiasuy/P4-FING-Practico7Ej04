@@ -8,7 +8,9 @@
       <itemPath>ICollection.h</itemPath>
       <itemPath>IIterator.h</itemPath>
       <itemPath>List.h</itemPath>
+      <itemPath>ListIterator.h</itemPath>
       <itemPath>Node.h</itemPath>
+      <itemPath>Usuario.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -21,7 +23,9 @@
       <itemPath>ICollection.cpp</itemPath>
       <itemPath>IIterator.cpp</itemPath>
       <itemPath>List.cpp</itemPath>
+      <itemPath>ListIterator.cpp</itemPath>
       <itemPath>Node.cpp</itemPath>
+      <itemPath>Usuario.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -62,9 +66,17 @@
       </item>
       <item path="List.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="ListIterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Node.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -105,9 +117,17 @@
       </item>
       <item path="List.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="ListIterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Node.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

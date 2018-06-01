@@ -5,18 +5,20 @@
  */
 
 /* 
- * File:   ICollectible.cpp
+ * File:   Usuario.cpp
  * Author: user6
  * 
- * Created on 1 de junio de 2018, 0:54
+ * Created on 1 de junio de 2018, 2:06
  */
 
-#include "ICollectible.h"
+#include "Usuario.h"
 
-ICollectible::ICollectible() {
+Usuario::Usuario() {
 }
 
+Usuario::Usuario(const Usuario& orig) {
+}
 
-ICollectible::~ICollectible() {
+Usuario::~Usuario() {
 }
 

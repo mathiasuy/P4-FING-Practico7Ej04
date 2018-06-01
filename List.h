@@ -27,6 +27,7 @@ public:
     void add(ICollectible *);
     void remove(ICollectible*);
     bool member(ICollectible*);
+    IIterator getIterator();
 };
 
 #endif /* LIST_H */

@@ -14,13 +14,13 @@
 #ifndef IITERATOR_H
 #define IITERATOR_H
 
-class IIterator {
-public:
-    IIterator();
-    IIterator(const IIterator& orig);
-    virtual ~IIterator();
-private:
+#include "ICollectible.h"
 
+
+class IIterator {
+    virtual bool hasCurrent()=0;
+    virtual ICollectible getCurrent()=0;
+    virtual void next()=0;
 };
 
 #endif /* IITERATOR_H */
